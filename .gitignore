@@ -1,0 +1,64 @@
+# Android / Gradle generated files
+.gradle/
+.kotlin/
+**/build/
+artifacts/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Per-machine SDK and developer settings
+local.properties
+local.*.properties
+!local.properties.example
+.env
+.env.*
+!.env.example
+
+# Signing credentials
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+
+# SDKs, emulators and local tooling
+android-sdk/
+android-avd/
+sdk/
+avd/
+
+# EEG recordings, private sessions, model weights and generated exports
+data/
+datasets/
+recordings/
+capture_*/
+control_sessions/
+*.bdf
+*.edf
+*.gdf
+*.f32
+*.mat
+*.npy
+*.npz
+*.onnx
+*.pt
+*.pth
+*.jsonl
+*.pcapng
+*.etl
+*.log
+*.apk
+*.aab
+*.zip
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
